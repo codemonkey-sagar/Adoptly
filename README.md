@@ -1,2 +1,3 @@
-# FurryHome
-Furry Home: An open-source pet adoption platform connecting animals in need with loving families.
+# Adoptly
+
+Adoptly: Simplifying pet adoption by connecting families with their perfect furry match
