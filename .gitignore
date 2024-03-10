@@ -130,10 +130,8 @@ dist
 .pnp.*
 
 
-#custom add
-node_modules/
-dist/
-.env
+# Track the file movement 
 .DS_Store
-coverage/
+
+# vscode directory 
 .vscode/
