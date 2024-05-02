@@ -1,14 +1,11 @@
-import Header from "../components/Header/Header";
-import Hero from "../components/Hero/Hero";
-import SearchParams from "../components/SearchParams/SearchParams";
+import Routes from "./routes";
+import QueryClientProviderSetup from "../context/QueryClientProviderSetup";
 
 const App = () => {
   return (
-    <div>
-      <Header />
-      <Hero />
-      <SearchParams />
-    </div>
+    <QueryClientProviderSetup>
+      <Routes />
+    </QueryClientProviderSetup>
   );
 };
 
